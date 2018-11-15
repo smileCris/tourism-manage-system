@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+.bg {
+	background: url(img/bg.jpg) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg1 {
+	background: url(img/bg1.png) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form {
+	width: 30%;
+	max-width: 280px;
+	margin: 180px auto 0;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	padding: 0 6% 30px;
+	background: #fff;
+}
+.form > * {
+	margin-top: 20px;
+}
+.inputmsg {
+	width: 100%;
+    height: 35px;
+    border: 2px solid #ccc;
+}
+.inputmsg1 {
+	width: 20%;
+    height: 25px;
+    margin-right: 20px;
+    border: 2px solid #ccc;
+}
+.inputbtn {
+    padding: 10px;
+    width: 35%;
+    margin-right: 10%;
+	border-radius: 3px;
+	outline: none;
+    background: #00aaee;
+    color: #fff;
+    border: none;
+}
+.inputbtn1 {
+    padding: 5px;
+    width: 8%;
+    margin-right: 10%;
+	border-radius: 3px;
+	outline: none;
+    background: #00aaee;
+    color: #fff;
+    border: none;
+}
+.main, .page {
+	padding: 20px;
+}
+.page {
+	float: left;
+	width:28%;
+	margin: 10px;
+	border: 1px solid #eee;
+}
+img {
+	width: 100%;
+}
+.detail {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #eee;
+	background: #fff;
+}
+.detailImg {
+	width: 60%;
+}
+#allmap {
+	width: 60%;
+	height: 300px;
+	overflow: hidden;
+	margin:0;
+	font-family:"微软雅黑";
+}
